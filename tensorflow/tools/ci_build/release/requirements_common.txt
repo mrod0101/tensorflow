@@ -32,3 +32,4 @@ tf-estimator-nightly ~= 2.8.0.dev
 grpcio ~= 1.43.0  # NOTE: Earliest version for Python 3.10
 portpicker ~= 1.4.0
 scipy ~= 1.7.2  # NOTE: Earliest version for Python 3.10
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
